@@ -1,0 +1,32 @@
+.profile {
+  padding: 40px 0 104px;
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-name {
+      width: 124px;
+      color: var(--Black, #070707);
+      font-family: Gilroy-Bold;
+      font-size: 47.339px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    &-desc {
+      color: var(--Black, #070707);
+      font-family: Gilroy-Medium;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  &__image-container {
+    margin-top: 30px;
+  }
+}

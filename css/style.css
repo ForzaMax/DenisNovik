@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 940px;
+  box-sizing: content-box;
+}
+
+.nav {
+  min-height: 88px;
+  padding: 33px 0;
+  border-bottom: 2px solid #e5e5e5;
+  stroke-width: 1px;
+  stroke: #828282;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  color: #828282;
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.profile {
+  padding: 40px 0 104px;
+}
+.profile__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile__info-name {
+  width: 124px;
+  color: var(--Black, #070707);
+  font-family: Gilroy-Bold;
+  font-size: 47.339px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.profile__info-desc {
+  color: var(--Black, #070707);
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.profile__image-container {
+  margin-top: 30px;
+}
+
+.title {
+  color: var(--Black, #070707);
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.subtitle {
+  color: var(--Black, #070707);
+  text-align: center;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.item {
+  width: 166px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.item__icon {
+  display: block;
+  margin: 0 auto;
+}
+.item__title {
+  margin: 24px auto 0;
+  max-width: 81px;
+  flex-grow: 1;
+  color: #828282;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+.item__rating {
+  margin-bottom: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  padding: 120px 0 107px;
+  background: #f6f6f6;
+}
+.about__subtitle {
+  margin: 17px auto;
+  max-width: 485px;
+}
+
+.skills {
+  padding: 91px 0 110px;
+}
+.skills__subtitle {
+  margin-top: 69px;
+}
+.skills__wrapper {
+  margin-top: 83px;
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */

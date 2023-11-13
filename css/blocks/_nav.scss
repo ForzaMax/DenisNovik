@@ -1,0 +1,27 @@
+.nav {
+  min-height: 88px;
+
+  padding: 33px 0;
+  border-bottom: 2px solid #e5e5e5;
+  stroke-width: 1px;
+  stroke: #828282;
+
+  &__list {
+    // Возможно тут есть более изящное решение. Отодвигаю Nav от верха экрана.
+    // padding-top: 33px;
+    //
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    list-style: none;
+
+    color: #828282;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
