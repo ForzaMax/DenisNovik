@@ -55,7 +55,7 @@
 
 @media (max-width: 591px) {
   .profile {
-    padding: 65px 0 83px;
+    padding: 51px 0 83px;
 
     &__info {
       flex-direction: column;
@@ -63,7 +63,7 @@
 
       &-desc {
         margin-top: 23px;
-        padding-bottom: none;
+        padding-bottom: 0;
       }
     }
 

@@ -131,6 +131,10 @@ button {
   color: var(--Black, #070707);
   transition: 0.3s;
 }
+.burger__link:hover {
+  color: var(--Black, #070707);
+  transition: 0.3s;
+}
 
 @media (max-width: 591px) {
   .burger {
@@ -182,7 +186,7 @@ button {
 
 @media (max-width: 591px) {
   .profile {
-    padding: 65px 0 83px;
+    padding: 51px 0 83px;
   }
   .profile__info {
     flex-direction: column;
@@ -190,7 +194,7 @@ button {
   }
   .profile__info-desc {
     margin-top: 23px;
-    padding-bottom: none;
+    padding-bottom: 0;
   }
   .profile__image-container {
     margin-top: 37px;
