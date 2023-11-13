@@ -1,0 +1,19 @@
+.portfolio {
+  padding: 113px 0 96px;
+  background: #f6f6f6;
+
+  &__wrapper {
+    margin-top: 47px;
+  }
+
+  &__subtitle {
+    display: block;
+    margin: 42px auto 0;
+
+    text-decoration: underline;
+  }
+
+  &__item:not(:first-child) {
+    margin-top: 99px;
+  }
+}

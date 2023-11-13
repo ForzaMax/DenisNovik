@@ -139,4 +139,20 @@ a {
   margin-top: 83px;
   display: flex;
   justify-content: space-between;
+}
+
+.portfolio {
+  padding: 113px 0 96px;
+  background: #f6f6f6;
+}
+.portfolio__wrapper {
+  margin-top: 47px;
+}
+.portfolio__subtitle {
+  display: block;
+  margin: 42px auto 0;
+  text-decoration: underline;
+}
+.portfolio__item:not(:first-child) {
+  margin-top: 99px;
 }/*# sourceMappingURL=style.css.map */
