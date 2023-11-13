@@ -3,14 +3,8 @@
 
   padding: 33px 0;
   border-bottom: 2px solid #e5e5e5;
-  stroke-width: 1px;
-  stroke: #828282;
 
   &__list {
-    // Возможно тут есть более изящное решение. Отодвигаю Nav от верха экрана.
-    // padding-top: 33px;
-    //
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,5 +17,12 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+  }
+
+  &__link {
+    transition: 0.3s;
+    &:hover {
+      color: var(--Black, #070707);
+    }
   }
 }
