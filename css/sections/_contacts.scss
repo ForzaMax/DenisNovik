@@ -21,5 +21,34 @@
     font-family: Gilroy-Medium;
     font-size: 14px;
     font-weight: 400;
+
+    transition: 0.3s;
+    a {
+      &:hover {
+        color: #595555;
+      }
+    }
+  }
+}
+
+@media (max-width: 591px) {
+  .contacts {
+    padding: 82px 0 90px;
+
+    &__subtitle {
+      margin-top: 27px;
+    }
+
+    &__btn {
+      margin-top: 39px;
+    }
+
+    &__social {
+      margin-top: 48px;
+    }
+
+    &__following {
+      margin-top: 48px;
+    }
   }
 }

@@ -11,6 +11,11 @@
     margin: 42px auto 0;
 
     text-decoration: underline;
+
+    transition: 0.3s;
+    &:hover {
+      color: #828282;
+    }
   }
 
   &__item {
@@ -23,5 +28,11 @@
   }
   &__item:not(:first-child) {
     margin-top: 99px;
+  }
+}
+
+@media (max-width: 591px) {
+  .portfolio {
+    padding: 81px 0;
   }
 }
