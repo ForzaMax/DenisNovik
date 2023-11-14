@@ -95,6 +95,9 @@ button {
 .burger__check:hover ~ .burger__icon rect {
   fill: #828282;
 }
+.burger__check:checked ~ .burger__list {
+  transform: none;
+}
 .burger__check:checked {
   position: fixed;
   top: 66px;

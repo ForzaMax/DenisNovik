@@ -39,6 +39,11 @@
       fill: #828282;
     }
 
+
+    &:checked ~ .burger__list {
+      transform: none;
+    }
+
     &:checked {
       position: fixed;
       top: 66px;
