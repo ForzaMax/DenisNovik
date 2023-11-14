@@ -72,6 +72,7 @@ button {
   position: absolute;
   top: 70px;
   right: 30px;
+  transition: 0.3s;
 }
 .burger__icon_close {
   position: absolute;
@@ -91,8 +92,8 @@ button {
   z-index: 100;
   cursor: pointer;
 }
-.burger__check:checked ~ .burger__list {
-  transform: none;
+.burger__check:hover ~ .burger__icon rect {
+  fill: #828282;
 }
 .burger__check:checked {
   position: fixed;

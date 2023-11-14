@@ -9,6 +9,7 @@
     top: 70px;
     right: 30px;
 
+    transition: 0.3s;
     &_close {
       position: absolute;
       display: block;
@@ -34,8 +35,8 @@
 
     cursor: pointer;
 
-    &:checked ~ .burger__list {
-      transform: none;
+    &:hover ~ .burger__icon rect {
+      fill: #828282;
     }
 
     &:checked {
